@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <microsysindia.sirjohn.timelineview.TimelineView
+                android:id="@+id/time_marker"
+                android:layout_width="@dimen/size_100px"
+                android:layout_height="@dimen/size_30px"
+                app:line="@color/secondary_text"
+                app:linePadding="5dp"
+                app:lineSize="2dp"
+                app:markerSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimValue_10"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/dimTextSize_16" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimValue_5"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/dimTextSize_16" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_canceld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your Order Has been Rejected"
+        android:textColor="@color/Dark_red"
+        android:textSize="@dimen/dimTextSize_30"
+        android:visibility="gone" />
+</LinearLayout>

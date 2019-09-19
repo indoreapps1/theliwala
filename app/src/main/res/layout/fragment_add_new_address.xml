@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_addnewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimValue_20"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimValue_10"
+                    android:layout_marginTop="@dimen/dimValue_10"
+                    android:text="Name"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dimValue_5"
+                    android:background="@drawable/capsuleshape_button_secondtext"
+                    android:inputType="text"
+                    android:padding="@dimen/dimValue_10"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimValue_10"
+                    android:layout_marginTop="@dimen/dimValue_10"
+                    android:text="Phone"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dimValue_5"
+                    android:background="@drawable/capsuleshape_button_secondtext"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:padding="@dimen/dimValue_10"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimValue_10"
+                    android:layout_marginTop="@dimen/dimValue_10"
+                    android:text="Landmark"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_landmark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dimValue_5"
+                    android:background="@drawable/capsuleshape_button_secondtext"
+                    android:padding="@dimen/dimValue_10"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimValue_10"
+                    android:layout_marginTop="@dimen/dimValue_10"
+                    android:text="Address"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_80px"
+                    android:layout_marginTop="@dimen/dimValue_5"
+                    android:background="@drawable/address_bar"
+                    android:inputType="text"
+                    android:padding="@dimen/dimValue_10"
+                    android:textColor="@color/primary_text"
+                    android:textColorHint="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimValue_10"
+                    android:layout_marginTop="@dimen/dimValue_10"
+                    android:text="City"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dimValue_5"
+                    android:background="@drawable/capsuleshape_button_secondtext"
+                    android:padding="@dimen/dimValue_10"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimValue_10"
+                    android:layout_marginTop="@dimen/dimValue_10"
+                    android:text="State"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edt_state"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/dimValue_5"
+                    android:background="@drawable/capsuleshape_button_secondtext"
+                    android:padding="@dimen/dimValue_10"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primary_text"
+                    android:textSize="@dimen/dimTextSize_14" />
+
+                <LinearLayout
+                    android:id="@+id/save_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimValue_10"
+                    android:background="@drawable/capsuleshape_fill_button"
+                    android:gravity="center|bottom">
+
+                    <TextView
+                        android:id="@+id/saveaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="@dimen/dimValue_8"
+                        android:text="@string/save_address"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimTextSize_18" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

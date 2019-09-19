@@ -1,9 +1,136 @@
 <resources>
-    <string name="app_name">theliwala</string>
+    <string name="app_name">Theliwala</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_with_facebook_text">Sign up with Facebook</string>
+    <string name="login_with_phone_text">Sign up with Phone</string>
+    <string name="skip">Skip</string>
+    <string name="dont_recive_otp_text">Didn\'t Recevied OTP?</string>
+    <string name="see_menu_text">See Menu</string>
+    <string name="resend_otp_text">Resend OTP</string>
+    <string name="login_with_phone_activity_text">Please Enter Your Mobile Number</string>
+    <string name="otp_text">Please Enter OTP You Recevied</string>
+    <string name="login_hint_text">Enter Mobile Number</string>
+    <string name="hint_text">Enter OTP Number</string>
+    <string name="proceed_text">PROCEED</string>
+    <string name="submit_text">Submit</string>
+    <string name="name_hint_text">Enter Name</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="gmail_text">Gmail</string>
+    <!--for store details-->
+
+    <string name="StoreDetail">Store Detail</string>
+    <string name="CreateOrder">Create Order</string>
+    <string name="Add_new_Address">Add New Address</string>
+    <string name="Yourorder">Your Order</string>
+    <string name="Done">EDIT ORDER</string>
+    <string name="Quality">Quantity</string>
+    <string name="NameofDish">Name of Dish</string>
+    <string name="Price">Price</string>
+    <string name="Action">Action</string>
+    <string name="Total">Total</string>
+    <string name="Shippingcharges">Shipping charges</string>
+    <string name="grandTotal">Grand total</string>
+    <string name="promoDiscount">Promocde Discount</string>
+    <string name="subTotal">Sub total</string>
+    <string name="special_discount">Special Discount</string>
+    <string name="txt_Discount">Discount</string>
+    <string name="gst">Total GST</string>
+    <string name="Delivery_charges">Delivery Charges</string>
+    <string name="NetPrice">Net Paybale</string>
+    <string name="GrandTotal">Grand Total</string>
+    <string name="Yourorderisbelow">Your order is below</string>
+    <string name="EverGreenStore1">EverGreen Store 1</string>
+    <string name="Storenumber">08588000502 </string>
+    <string name="StoreEmail"> evergreen@example.com </string>
+    <string name="StoreAddress">H-046,Asian Highway 2,H Block Sector 63,Noida Uttar Pradesh 201307</string>
+    <string name="payonline">PAY ONLINE</string>
+    <string name="Cashondelivery">CASH ON DELIVERY</string>
+
+    <!--order placed-->
+    <string name="thank_you">Thank You!</string>
+    <string name="your_order_placed_successfully">Your order has been Successfully placed</string>
+    <string name="order_number_heading">Order Number -</string>
+    <string name="order_number">123456789</string>
+    <string name="Order_number">Orders Number</string>
+
+    <string name="track_order">Track Order</string>
+    <string name="delete_address">Are you sure you want delete this address?</string>
+    <!--select your location-->
+    <string name="select_location_heading">Select your location</string>
+    <string name="select_your_city">Select your city</string>
+    <string name="select_your_locality">Select your locality</string>
+    <string name="search_your_locality">Search your locality</string>
+    <!--////basket/////////-->
+    <string name="YourAddedOrder">Your Added Orders</string>
+    <string name="DeliveryCharges">Delivery Charges</string>
+    <string name="TotalamountPayble">TOTAL AMOUNT PAYABLE</string>
+    <string name="PriceDetails">Price Details</string>
+    <string name="Continue">Continue</string>
+    <string name="title">Kaaju Barfi</string>
+    <string name="cityName">cityName</string>
+    <string name="deliveryCharges">Delivery Charges</string>
+    <!--store detail-->
+    <string name="store_address_detail">H-046, Asian Highway 2,H Block,Sector-63</string>
+    <string name="store_contact_number_detail">987654321</string>
+    <string name="store_email_address_detail">haldiram@example.com</string>
+    <string name="create_order">Create Order</string>
+    <string name="store_detail_heading">EverGreenStore1</string>
+    <!--Select your store-->
+    <string name="select_store_heading">Select your Store</string>
+    <string name="store_name">EverGreen store1</string>
+    <string name="store_address">H-046, Asian Highway 2,H Block,Sector-63</string>
+    <string name="store_email_address">haldiram@example.com</string>
+    <string name="store_contact_number">987654321</string>
+    <!--add address-->
+    <string name="save_address">Save Address</string>
+    <!--user profile-->
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <!--for prouduct list-->
+    <string name="Addtocart">Add to Cart</string>
+    <string name="Or">OR</string>
+    <string name="notice">Some Special instructions come here! or some notice here</string>
+    <string name="price">500 per KG</string>
+    <string name="description">Kaju and Ghee</string>
+    <!--/////your orders string..........-->
+    <!--your orders-->
+
+    <string name="order_id">#12345</string>
+    <string name="amount">500</string>
+    <string name="statusr">Dispatched</string>
+    <string name="date">19-Aug2017</string>
+    <string name="flat_off">Flat 10% off for upcoming festival</string>
+    <string name="promo_code">Have Promo Code?</string>
+    <!--order details-->
+    <string name="CANCELORDER">CANCEL  ORDER</string>
+    <string name="Pending">Pending</string>
+    <!--Fragements titles...............................-->
+    <string name="location">Select Your City</string>
+    <string name="select_store">Select Store To Continue</string>
+    <string name="select_category">Choose Category</string>
+    <string name="select_Menu">Select Menu</string>
+    <string name="sweets">Sweets</string>
+    <string name="your_order">Your Order</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="your_favourite_store">Your Favourite Stores</string>
+    <string name="basket">Your Added Orders In Basket</string>
+    <string name="your_orders">Your Orders</string>
+    <string name="orders_number">Order Number</string>
+    <string name="DeliverTo">Deliver to:</string>
+    <string name="UserAddress">Triveni Appartment,PritamPura,NEW DELHI,110034,India</string>
+
+    <string name="facebook_app_id">353201525109025</string>
+    <!--//for force updates-->
+    <string name="Update_heading">Update Available</string>
+    <string name="update2">An update version of the app is now available.</string>
+    <string name="remind_me_later">Remind me Later</string>
+    <string name="update_text">Update Now</string>
 </resources>

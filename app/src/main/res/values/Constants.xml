@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- booleans -->
+    <bool name="flagDebug">true</bool>
+    <!-- Integers -->
+    <integer name="intSplashTime">3000</integer>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dimTextSize_1">1sp</dimen>
+    <dimen name="dimTextSize_5">5sp</dimen>
+    <dimen name="dimTextSize_7">7sp</dimen>
+    <dimen name="dimTextSize_8">8sp</dimen>
+    <dimen name="dimTextSize_9">9sp</dimen>
+    <dimen name="dimTextSize_10">10sp</dimen>
+    <dimen name="dimTextSize_11">11sp</dimen>
+    <dimen name="dimTextSize_12">12sp</dimen>
+    <dimen name="dimTextSize_13">13sp</dimen>
+    <dimen name="dimTextSize_14">14sp</dimen>
+    <dimen name="dimTextSize_15">15sp</dimen>
+    <dimen name="dimTextSize_16">16sp</dimen>
+    <dimen name="dimTextSize_17">17sp</dimen>
+    <dimen name="dimTextSize_18">18sp</dimen>
+	<dimen name="dimTextSize_19">19sp</dimen>
+	<dimen name="dimTextSize_20">20sp</dimen>
+	<dimen name="dimTextSize_21">21sp</dimen>
+	<dimen name="dimTextSize_22">22sp</dimen>
+	<dimen name="dimTextSize_23">23sp</dimen>
+	<dimen name="dimTextSize_24">24sp</dimen>
+	<dimen name="dimTextSize_25">25sp</dimen>
+    <dimen name="dimTextSize_26">26sp</dimen>
+    <dimen name="dimTextSize_27">27sp</dimen>
+    <dimen name="dimTextSize_28">28sp</dimen>
+    <dimen name="dimTextSize_29">29sp</dimen>
+    <dimen name="dimTextSize_30">30sp</dimen>
+    <dimen name="dimTextSize_31">31sp</dimen>
+    <dimen name="dimTextSize_32">32sp</dimen>
+    <dimen name="dimTextSize_33">33sp</dimen>
+    <dimen name="dimTextSize_34">34sp</dimen>
+    <dimen name="dimTextSize_35">35sp</dimen>
+    <dimen name="dimTextSize_36">36sp</dimen>
+    <dimen name="dimTextSize_37">37sp</dimen>
+    <dimen name="dimTextSize_38">38sp</dimen>
+    <dimen name="dimTextSize_39">39sp</dimen>
+    <dimen name="dimTextSize_40">40sp</dimen>
+    <dimen name="dimTextSize_41">41sp</dimen>
+    <dimen name="dimTextSize_42">42sp</dimen>
+    <dimen name="dimTextSize_43">43sp</dimen>
+    <dimen name="dimTextSize_44">44sp</dimen>
+    <dimen name="dimTextSize_45">45sp</dimen>
+    <dimen name="dimTextSize_46">46sp</dimen>
+    <dimen name="dimTextSize_47">47sp</dimen>
+    <dimen name="dimTextSize_48">48sp</dimen>
+    <dimen name="dimTextSize_49">49sp</dimen>
+    <dimen name="dimTextSize_50">50sp</dimen>
+    <dimen name="dimTextSize_58">58sp</dimen>
+    <dimen name="dimTextSize_69">69sp</dimen>
+    <dimen name="dimTextSize_51">52sp</dimen>
+    <dimen name="dimTextSize_100">100sp</dimen>
+    <dimen name="dimTextSize_110">110sp</dimen>
+
+
+    <!--  -->
+    <dimen name="dimValue_.5">.5dip</dimen>
+    <dimen name="dimValue_1">1dip</dimen>
+    <dimen name="dimValue_2">2dip</dimen>
+    <dimen name="dimValue_3">3dip</dimen>
+    <dimen name="dimValue_4">4dip</dimen>
+    <dimen name="dimValue_5">5dip</dimen>
+    <dimen name="dimValue_6">6dip</dimen>
+    <dimen name="dimValue_7">7dip</dimen>
+    <dimen name="dimValue_8">8dip</dimen>
+    <dimen name="dimValue_9">9dip</dimen>
+    <dimen name="dimValue_10">10dip</dimen>
+    <dimen name="dimValue_11">11dip</dimen>
+    <dimen name="dimValue_12">12dip</dimen>
+    <dimen name="dimValue_13">13dip</dimen>
+    <dimen name="dimValue_14">14dip</dimen>
+    <dimen name="dimValue_21">16dip</dimen>
+    <dimen name="dimValue_16">15dip</dimen>
+    <dimen name="dimValue_18">18dip</dimen>
+    <dimen name="dimValue_20">20dip</dimen>
+    <dimen name="dimValue_22">22dip</dimen>
+    <dimen name="dimValue_24">24dip</dimen>
+    <dimen name="dimValue_25">25dip</dimen>
+    <dimen name="dimValue_28">28dip</dimen>
+    <dimen name="dimValue_30">30dip</dimen>
+    <dimen name="dimValue_35">35dip</dimen>
+    <dimen name="dimValue_40">40dip</dimen>
+    <dimen name="dimValue_45">45dip</dimen>
+    <dimen name="dimValue_48">48dip</dimen>
+    <dimen name="dimValue_50">50dip</dimen>
+    <dimen name="dimValue_60">60dip</dimen>
+    <dimen name="dimValue_55">55dip</dimen>
+    <dimen name="dimValue_70">70dip</dimen>
+    <dimen name="dimValue_80">80dip</dimen>
+    <dimen name="dimValue_85">85dip</dimen>
+    <dimen name="dimValue_83">83dip</dimen>
+    <dimen name="dimValue_90">90dip</dimen>
+
+    <dimen name="dimValue_110">110dip</dimen>
+    <dimen name="dimValue_111">111dip</dimen>
+    <dimen name="dimValue_112">112dip</dimen>
+    <dimen name="dimValue_113">113dip</dimen>
+    <dimen name="dimValue_114">114dip</dimen>
+    <dimen name="dimValue_115">115dip</dimen>
+    <dimen name="dimValue_116">116dip</dimen>
+    <dimen name="dimValue_117">117dip</dimen>
+    <dimen name="dimValue_118">118dip</dimen>
+    <dimen name="dimValue_119">119dip</dimen>
+    <dimen name="dimValue_120">120dip</dimen>
+    <dimen name="dimValue_121">121dip</dimen>
+    <dimen name="dimValue_130">130dip</dimen>
+    <dimen name="dimValue_160">160dip</dimen>
+    <dimen name="dimValue_180">180dip</dimen>
+    <dimen name="dimValue_220">220dip</dimen>
+    <dimen name="dimValue_250">250dip</dimen>
+
+    <!-- Constant String -->
+
+</resources>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight=".6"
+            android:background="@color/yellow_light"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".35"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/size_130px"
+                        android:layout_height="@dimen/size_100px"
+                        android:layout_margin="@dimen/dimValue_5"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logo"></ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_see_menu_text"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:gravity="center"
+                    android:text="@string/skip"
+                    android:textColor="@color/background_grey"
+                    android:textSize="@dimen/dimTextSize_16"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/dimTextSize_16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/dimValue_10"
+                android:layout_weight=".1"
+                android:gravity="center"
+                android:text="@string/login_hint_text"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/dimTextSize_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".45"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimValue_50"
+                        android:background="@drawable/capsuleshape_button"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/phone_icon"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".2"
+                            android:background="@android:color/transparent"
+                            android:gravity="center"
+                            android:textColor="@color/green"
+                            android:textSize="@dimen/dimTextSize_20" />
+
+                        <EditText
+                            android:id="@+id/edt_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight=".8"
+                            android:background="@android:color/transparent"
+                            android:clickable="true"
+                            android:gravity="left|center"
+                            android:hint="@string/login_hint_text"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:paddingLeft="@dimen/dimValue_10"
+                            android:singleLine="true"
+                            android:textColorHint="@color/secondary_text"
+                            android:textSize="@dimen/dimTextSize_14" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_proceed"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimValue_50"
+                        android:layout_marginTop="@dimen/dimValue_10"
+                        android:background="@drawable/capsuleshape_fill_button"
+                        android:gravity="center"
+                        android:text="@string/proceed_text"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimTextSize_12" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Body_bg">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimValue_10"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="false"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimValue_10"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/size_80px"
+                        android:layout_height="@dimen/size_30px"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/storeName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="@color/primary_text"
+                        android:textSize="@dimen/dimTextSize_18" />
+
+                    <TextView
+                        android:id="@+id/tv_orderPlaced"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/Yourorderisbelow"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="@dimen/dimTextSize_16" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/size_1px"
+                        android:layout_marginTop="@dimen/dimValue_10"
+                        android:background="@color/secondary_text"></View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimValue_5"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dimValue_10"
+                            android:layout_marginRight="@dimen/dimValue_10"
+                            android:layout_marginTop="@dimen/dimValue_10"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/quantity"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:gravity="center|left"
+                                android:text="@string/Quality"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="@dimen/dimTextSize_14" />
+
+                            <TextView
+                                android:id="@+id/dish_name"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".4"
+                                android:gravity="center"
+                                android:text="@string/NameofDish"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="@dimen/dimTextSize_14" />
+
+                            <TextView
+                                android:id="@+id/price"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:gravity="center|end"
+                                android:text="@string/Price"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="@dimen/dimTextSize_14" />
+
+                            <TextView
+                                android:id="@+id/action"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".2"
+                                android:gravity="center"
+                                android:text="@string/Action"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="@dimen/dimTextSize_14"
+                                android:visibility="gone" />
+
+
+                        </LinearLayout>
+
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/listrecycler"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                        </android.support.v7.widget.RecyclerView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dimValue_10"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/dimValue_10"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_deliverTo"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/DeliverTo"
+                                    android:textSize="@dimen/dimTextSize_14" />
+
+                                <TextView
+                                    android:id="@+id/tv_deliveryAddress"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="@dimen/dimValue_5"
+                                    android:textSize="@dimen/dimTextSize_12" />
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dimValue_1"
+                        android:background="@color/divider">
+
+                    </View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimValue_5"
+                        android:layout_marginBottom="@dimen/dimValue_10"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dimValue_10"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/total"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:text="@string/Total"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/dimTextSize_14" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/rupee_icon"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center|right"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+
+                                    <TextView
+                                        android:id="@+id/total_amount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="end|center"
+                                        android:text=""
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_14" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/layout_discount"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dimValue_5"
+                                android:layout_marginTop="@dimen/dimValue_5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_discount"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:text="@string/txt_Discount"
+                                    android:textColor="@color/red"
+                                    android:textSize="@dimen/dimTextSize_14" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tv_discount_rupees_icon"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center|right"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+
+                                    <TextView
+                                        android:id="@+id/tv_Discount_charges"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="end|center"
+                                        android:text="0"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_14" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <!--<View-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="@dimen/dimValue_1"-->
+                            <!--android:background="@color/divider">-->
+
+                            <!--</View>-->
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dimValue_5"
+                                android:layout_marginTop="@dimen/dimValue_5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/sub_total"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:text="@string/subTotal"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/dimTextSize_16" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/icon_rupees_sub"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center|right"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+
+                                    <TextView
+                                        android:id="@+id/sub_amount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="end"
+                                        android:text=""
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/layout_gst"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dimValue_5"
+                                android:layout_marginTop="@dimen/dimValue_5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_gst"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:text="@string/gst"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/dimTextSize_14" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/tv_rupees_icon_gst"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center|right"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+
+                                    <TextView
+                                        android:id="@+id/total_gst"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="end|center"
+                                        android:text="0"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_14" />
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                            <!--<View-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="@dimen/dimValue_1"-->
+                            <!--android:background="@color/divider">-->
+
+                            <!--</View>-->
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dimValue_5"
+                                android:layout_marginTop="@dimen/dimValue_5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/grand_total"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:text="@string/grandTotal"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/dimTextSize_16" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/icon_rupees"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center|right"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+
+                                    <TextView
+                                        android:id="@+id/grant_amount"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="end"
+                                        android:text=""
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dimValue_5"
+                                android:layout_marginTop="@dimen/dimValue_5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/shipping"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:text="@string/Delivery_charges"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/dimTextSize_14" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/rupees_icon"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center|right"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+
+                                    <TextView
+                                        android:id="@+id/shipping_charges"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="end|center"
+                                        android:text="0"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_14" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/layout_promocode"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/dimValue_5"
+                                android:layout_marginTop="@dimen/dimValue_5"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/tv_promocode"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:text="@string/promoDiscount"
+                                    android:textColor="@color/red"
+                                    android:textSize="@dimen/dimTextSize_14" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight=".5"
+                                    android:gravity="end"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/icon_rupees_promo"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center|right"
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+
+                                    <TextView
+                                        android:id="@+id/tv_promocode_value"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:gravity="end"
+                                        android:text=""
+                                        android:textColor="@color/primary_text"
+                                        android:textSize="@dimen/dimTextSize_16" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/layout_net_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="@dimen/dimValue_10"
+                            android:layout_marginTop="@dimen/dimValue_10"
+                            android:background="@drawable/done_corner_round_border"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/dimValue_10">
+
+                            <TextView
+                                android:id="@+id/tv_net_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="Price :"
+                                android:textColor="@color/primary_text"
+                                android:textSize="@dimen/dimTextSize_16" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/net_price_rupees_icon"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center|right"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/dimTextSize_16" />
+
+                                <TextView
+                                    android:id="@+id/net_price_amount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/primary_text"
+                                    android:textSize="@dimen/dimTextSize_16" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</android.support.design.widget.CoordinatorLayout>

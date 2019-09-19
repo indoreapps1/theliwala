@@ -1,0 +1,79 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="list_padding">5dp</dimen>
+    <dimen name="shadow_width">1dp</dimen>
+    <dimen name="slidingmenu_offset">704dp</dimen>
+    <dimen name="slidingmenu_logowidth">200dip</dimen>
+    <dimen name="slidingmenu_logoheight">200dip</dimen>
+    <dimen name="carditem_padding">20dp</dimen>
+    <dimen name="cardtitle_textsize">23sp</dimen>
+    <dimen name="app_text_size">24sp</dimen>
+    <dimen name="home_text_size">40sp</dimen>
+    <dimen name="user_profile_image_width">60dp</dimen>
+    <dimen name="dimValue_15">25sp</dimen>
+    <dimen name="dimPadingItem">15dp</dimen>
+    <dimen name="dimMarginLeftRight">20dp</dimen>
+    <dimen name="dimMarginTopBottomLoginLayout">10dp</dimen>
+    <dimen name="dimLoginHeight">90dp</dimen>
+    <dimen name="listViewMargin">20dp</dimen>
+    <dimen name="listItemPading">20dp</dimen>
+
+    <dimen name="size_1px">10.00dp</dimen>
+    <dimen name="size_11px">1dp</dimen>
+    <dimen name="size_5px">15.68dp</dimen>
+
+    <dimen name="size_10px">30.36dp</dimen>
+
+    <dimen name="size_20px">50.7dp</dimen>
+    <dimen name="size_22px">22dp</dimen>
+    <dimen name="size_24px">24dp</dimen>
+    <dimen name="size_27px">55.672dp</dimen>
+
+    <dimen name="size_30px">40dp</dimen>
+
+    <dimen name="size_40px">50.4dp</dimen>
+
+    <dimen name="size_50px">80.8dp</dimen>
+
+    <dimen name="size_60px">90.16dp</dimen>
+    <dimen name="size_64px">64dp</dimen>
+    <dimen name="size_70px">100.52dp</dimen>
+
+    <dimen name="size_80px">110.88dp</dimen>
+    <dimen name="size_84px">84dp</dimen>
+    <dimen name="size_90px">120.24dp</dimen>
+
+    <dimen name="size_100px">130.6dp</dimen>
+
+    <dimen name="size_110px">140dp</dimen>
+
+    <dimen name="size_120px">150.3dp</dimen>
+
+    <dimen name="size_130px">160.7dp</dimen>
+
+    <dimen name="size_140px">170dp</dimen>
+
+    <dimen name="size_150px">180.4dp</dimen>
+
+    <dimen name="size_160px">190.8dp</dimen>
+
+    <dimen name="size_170px">200.1dp</dimen>
+
+    <dimen name="size_180px">220.5dp</dimen>
+
+    <dimen name="size_190px">250.9dp</dimen>
+
+    <dimen name="size_200px">280dp</dimen>
+
+    <dimen name="size_250px">284dp</dimen>
+    <dimen name="size_270px">300dp</dimen>
+    <dimen name="size_300px">340.8dp</dimen>
+    <dimen name="size_316px">356dp</dimen>
+    <dimen name="size_350px">350dp</dimen>
+    <dimen name="size_400px">450dp</dimen>
+    <dimen name="size_420px">470dp</dimen>
+</resources>

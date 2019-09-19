@@ -1,0 +1,138 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_basket"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Body_bg"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/dimValue_5"
+            app:cardElevation="@dimen/dimValue_5">
+
+            <LinearLayout
+                android:id="@+id/checkoutLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_30px"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dimValue_10"
+                android:paddingRight="@dimen/dimValue_10"
+                android:visibility="visible">
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/qty"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:layout_marginRight="@dimen/dimValue_10"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="@dimen/dimValue_5"-->
+                    <!--android:textColor="@color/red"-->
+                    <!--android:textSize="@dimen/dimTextSize_18" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="@dimen/size_1px"-->
+                    <!--android:layout_height="@dimen/size_10px"-->
+                    <!--android:background="@color/white"></View>-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/price"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_marginRight="@dimen/dimValue_10"-->
+                    <!--android:padding="@dimen/dimValue_5"-->
+                    <!--android:textColor="@color/blue_btn_bg_color"-->
+                    <!--android:textSize="@dimen/dimTextSize_18" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center|end"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/checkOut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Checkout"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/dimTextSize_16" />
+
+                    <TextView
+                        android:id="@+id/checkOutIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimValue_10"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/dimTextSize_18" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!--<TextView--><!--android:id="@+id/tv_yourOrder"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_marginLeft="@dimen/dimValue_10"--><!--android:layout_marginRight="@dimen/dimValue_10"--><!--android:layout_marginTop="@dimen/dimValue_6"--><!--android:text="@string/basket"--><!--android:textColor="@color/primary_text"--><!--android:textSize="@dimen/dimTextSize_16" />-->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimValue_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_yourOrder"
+                    android:layout_marginLeft="@dimen/dimValue_5"
+                    android:layout_marginTop="@dimen/dimValue_5"
+                    android:layout_marginRight="@dimen/dimValue_5"
+                    android:scrollbars="none">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/continuelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/background_grey"
+        android:gravity="center"
+        android:padding="@dimen/dimValue_13"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Build Order"
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/dimTextSize_20" />
+
+        <TextView
+            android:id="@+id/arrow_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimValue_10"
+            android:paddingTop="@dimen/dimValue_5"
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/dimTextSize_24" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

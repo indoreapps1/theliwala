@@ -2,7 +2,104 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="nav_header_vertical_spacing">8dp</dimen>
-    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimsixe_1dp">1dp</dimen>
+    <dimen name="dimsixe_50dp">50dp</dimen>
+    <dimen name="dimsize_180dp">180dp</dimen>
+    <dimen name="dimsize_80dp">80dp</dimen>
+
+
+    <dimen name="navigation_drawer_width">280dp</dimen>
+    <dimen name="slidingmenu_offset">77dp</dimen>
+    <dimen name="list_padding">5dp</dimen>
+    <dimen name="shadow_width">1dp</dimen>
+    <dimen name="slidingmenu_logowidth">140dp</dimen>
+    <dimen name="slidingmenu_logoheight">140dp</dimen>
+    <dimen name="carditem_padding">0dp</dimen>
+    <dimen name="cardtitle_textsize">15sp</dimen>
+    <dimen name="camera_size">30sp</dimen>
+    <dimen name="app_text_size">20sp</dimen>
+    <dimen name="home_text_size">30sp</dimen>
+    <dimen name="user_profile_image_width">60dp</dimen>
+    <dimen name="dimValue_15">20sp</dimen>
+    <dimen name="dimPadingItem">10dp</dimen>
+    <dimen name="dimMarginLeftRight">15dp</dimen>
+    <dimen name="dimMarginLeftRight1">16dp</dimen>
+    <dimen name="dimMarginTopBottomLoginLayout">0dp</dimen>
+    <dimen name="dimHomeSliderBoderHeight">85dp</dimen>
+    <dimen name="dimLoginHeight">85dp</dimen>
+    <dimen name="listViewMargin">10dp</dimen>
+    <dimen name="listItemPading">10dp</dimen>
+    <dimen name="size_5px">5dp</dimen>
+
+    <dimen name="size_10px">10dp</dimen>
+    <dimen name="size_18px">18dp</dimen>
+    <dimen name="size_20px">20dp</dimen>
+    <dimen name="size_24px">24dp</dimen>
+    <dimen name="size_27px">27dp</dimen>
+
+    <dimen name="size_30px">30dp</dimen>
+    <dimen name="size_36px">36dp</dimen>
+    <dimen name="size_40px">40dp</dimen>
+    <dimen name="size_45px">45dp</dimen>
+    <dimen name="size_48px">48dp</dimen>
+    <dimen name="size_50px">50dp</dimen>
+    <dimen name="size_56px">56dp</dimen>
+    <dimen name="size_58px">58dp</dimen>
+    <dimen name="size_60px">60dp</dimen>
+    <dimen name="size_64px">64dp</dimen>
+    <dimen name="size_70px">70dp</dimen>
+    <dimen name="size_74px">74dp</dimen>
+    <dimen name="size_80px">80dp</dimen>
+    <dimen name="size_84px">84dp</dimen>
+    <dimen name="size_90px">90dp</dimen>
+
+    <dimen name="size_100px">100dp</dimen>
+
+    <dimen name="size_110px">110dp</dimen>
+
+    <dimen name="size_120px">120dp</dimen>
+    <dimen name="size_124px">124dp</dimen>
+    <dimen name="size_126px">126dp</dimen>
+    <dimen name="size_128px">128dp</dimen>
+    <dimen name="size_130px">130dp</dimen>
+
+    <dimen name="size_140px">140dp</dimen>
+
+    <dimen name="size_150px">150dp</dimen>
+
+    <dimen name="size_160px">160dp</dimen>
+
+    <dimen name="size_170px">170dp</dimen>
+
+    <dimen name="size_180px">180dp</dimen>
+
+    <dimen name="size_190px">190dp</dimen>
+
+    <dimen name="size_200px">200dp</dimen>
+    <dimen name="size_226px">226dp</dimen>
+    <dimen name="size_236px">236dp</dimen>
+    <dimen name="size_250px">250dp</dimen>
+    <dimen name="size_270px">270dp</dimen>
+    <dimen name="size_285px">285dp</dimen>
+    <dimen name="size_298px">298dp</dimen>
+    <dimen name="size_300px">300dp</dimen>
+    <dimen name="size_316px">316dp</dimen>
+    <dimen name="size_320px">320dp</dimen>
+    <dimen name="size_350px">310dp</dimen>
+    <dimen name="size_400px">400dp</dimen>
+    <dimen name="size_420px">420dp</dimen>
+    <dimen name="size_430px">430dp</dimen>
+    <dimen name="size_450px">450dp</dimen>
+    <dimen name="size_490px">490dp</dimen>
+    <dimen name="size_495px">495dp</dimen>
+
+
+
+
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
 </resources>

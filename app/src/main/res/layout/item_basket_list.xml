@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimValue_5"
+    android:layout_marginTop="@dimen/dimValue_5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/storeName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dimValue_10"
+            android:layout_weight=".5"
+            android:gravity="center|left"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/dimTextSize_16" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_30px"
+            android:layout_marginRight="@dimen/dimValue_10"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/checkoutLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/checkOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Checkout"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/dimTextSize_16" />
+
+                <TextView
+                    android:id="@+id/checkOutIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimValue_10"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/dimTextSize_18" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1px"
+        android:layout_marginLeft="@dimen/dimValue_10"
+        android:layout_marginRight="@dimen/dimValue_10"
+        android:background="@color/secondary_text"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/dimValue_10"
+        android:layout_marginRight="@dimen/dimValue_10"
+        android:layout_marginTop="@dimen/dimValue_10"
+        android:layout_weight=".15"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/quantity_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:gravity="center|left"
+            android:text="Quantity"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/dimTextSize_14" />
+
+        <TextView
+            android:id="@+id/Item_tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:gravity="center|left"
+            android:text="@string/NameofDish"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/dimTextSize_14" />
+
+
+        <TextView
+            android:id="@+id/price_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:gravity="center"
+            android:text="Price"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/dimTextSize_14" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2"
+            android:gravity="center|end"
+            android:text="Remove"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/dimTextSize_14" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleView_inner"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dimValue_10"
+        android:layout_weight="0.65"
+        android:scrollbars="none">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
